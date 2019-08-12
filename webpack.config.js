@@ -5,7 +5,7 @@ const uglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const webpack = require('webpack');
 
 const libraryName = 'todo-widget';
-const outputFile = `${libraryName}.js`;
+const outputFile = `${libraryName}.min.js`;
 
 
 module.exports = {

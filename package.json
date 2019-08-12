@@ -1,8 +1,12 @@
 {
   "name": "todo-widget",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A pure javascript widget to add Todo Lists everywhere on your website",
   "main": "src/index.js",
+  "unpkg": "dist/todo-widget.min.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
